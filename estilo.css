@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    font-family: Candara;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    padding-top: 1rem;
+    background-image: url(./img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+nav{
+    margin-top: 1rem;
+    height: 1.rem;
+    width: 100%;
+    border-radius: 5%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+/*Formatação de texto */
+#a{
+    color: aliceblue;
+}
+p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+h1{
+    text-decoration: none; 
+    margin-bottom: .5rem; 
+}
+
+nav a{
+    margin-right: 2rem;
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+header h1{
+    text-shadow: 3px;
+}
+
+footer a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+/*Animações*/
+h1:hover{
+    transition: 60ms;
+    transform: scale(1.2);
+}
+nav:hover{
+    transition: 60ms;
+    transform: scale(1.2);
+}
+
+label {
+    font-size: 1.3rem;
+}
+
+input:hover{
+    border-color: blue;
+}
+
+input:focus{
+    background-color: rgb(218, 218, 218);
+}
+
+
+/*footer*/
+footer{
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(208, 208, 208);
+
+
+}
+
+/*imagens da pagina quem somos*/
+#img{
+    height: 50px;
+    width: 50px;
+    margin-left: 1rem;
+}
+td{
+    margin-left: 5rem;
+}
+
+article img{
+    margin-top: 5rem;
+    width: 50%;
+}
+
+/*Logo*/
+.logo{
+    width: 100px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+
+}
+
+/*Video*/
+#gif{
+    margin-top: 2rem;
+    width: 800px;
+    border-radius: 5%;
+}
+
+#gif:hover{
+    transition: 60ms;
+    transform: scale(1.1);
+}
+
+#img:hover, #imgg:hover{
+    transition: 60ms;
+    transform: scale(1.06);
+}
+
+/*Página de contato*/
+#caixa{
+    width: 50rem;
+    height: 1.8rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+* + nav{
+    overflow-x: hidden;
+}
+
